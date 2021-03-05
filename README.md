@@ -6,7 +6,8 @@ Photer is a photo search app that uses unplash api
 ## Technologies
 1. HTML
 2. CSS (SCSS)
-3. Vanilla JS (DOM manipulation, ASYNC, FETCH API)
+3. RWD
+4. Vanilla JS (DOM manipulation, ASYNC, FETCH API)
 
 ## Previev
 > https://tomaszdrochlinski.github.io/Photer/
