@@ -15,6 +15,7 @@ const getPhotos = async () => {
 };
 
 btn.addEventListener('click', (e) => {
+  gallery.classList.remove('gallery--visible');
   panel.classList.add('panel--top');
   gallery.classList.add('gallery--top');
   gallery.innerHTML = '';
@@ -36,8 +37,10 @@ btn.addEventListener('click', (e) => {
         img.classList.add('gallery__img');
         img.src = src;
 
-        imageDiv.appendChild(img);
-        gallery.appendChild(imageDiv);
+        setTimeout(() => {
+          imageDiv.appendChild(img);
+          gallery.appendChild(imageDiv);
+        }, 400);
       });
     })
     .catch((err) => console.log(err));
