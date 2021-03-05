@@ -114,4 +114,26 @@ body {
   position: relative;
   top: 10px;
 }
+
+@media (max-width: 450px) {
+  #app .panel__header {
+    font-size: 2rem;
+  }
+  #app .panel__btn {
+    width: 70px;
+    font-size: 0.8rem;
+  }
+  #app .panel__in {
+    width: 150px;
+    font-size: 0.9rem;
+  }
+  #app .panel__form {
+    width: 240px;
+  }
+  #app .panel {
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
