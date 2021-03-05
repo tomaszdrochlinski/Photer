@@ -15,7 +15,6 @@ const getPhotos = async () => {
 };
 
 btn.addEventListener('click', (e) => {
-  gallery.classList.remove('gallery--visible');
   panel.classList.add('panel--top');
   gallery.classList.add('gallery--top');
   gallery.innerHTML = '';
